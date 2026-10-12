@@ -26,6 +26,10 @@ API mặc định chạy tại `http://localhost:3000`.
 - `pnpm dev`: chạy development với watch mode
 - `pnpm build`: build vào thư mục `dist`
 - `pnpm typecheck`: kiểm tra TypeScript
+- `pnpm db:migrate`: chạy migration lên
+- `pnpm db:rollback`: rollback migration gần nhất
+- `pnpm db:seed`: tạo dữ liệu mẫu idempotent
+- `pnpm db:reset`: xóa database, chạy migration và seed lại
 
 ## Cấu trúc
 
